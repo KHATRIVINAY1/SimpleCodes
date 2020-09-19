@@ -9,7 +9,7 @@ def parse_page(page):
     print(soup.prettify())
 
 
-url = input("Enter url including eg:'http://codehundred.com: ")
+url = input("Enter url including eg:'http://example.com: ")
 
 #check if url is valid
 if (('http' in url) or ('https' in url)) and '.com' in url:
